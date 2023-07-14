@@ -3,5 +3,13 @@
         "dockerfile": "Dockerfile"
     },
   "features": {
+    
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
   }
 }
