@@ -1,0 +1,16 @@
+[package]
+name = "grpc_playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# server binary
+[[bin]]
+    name = "server"
+    path = "src/server.rs"
+
+# client binary
+[[bin]]
+    name = "client"
+    path = "src/client.rs"
